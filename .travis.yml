@@ -47,3 +47,8 @@ env:
 after_success:
   - util/publish-snapshot-on-commit.sh
   - util/generate-latest-docs.sh
+
+branches:
+  only:
+    - master
+    - optiona-of-checker
