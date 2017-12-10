@@ -50,5 +50,4 @@ after_success:
 
 branches:
   only:
-    - master
     - optiona-of-checker
